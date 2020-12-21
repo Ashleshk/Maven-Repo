@@ -14,7 +14,7 @@ public class Calc {
 		return a/b;
 	}
 	public static int mod(int a, int b){
-		return a/b;
+		return a%b;
 	}
 	public static void main(String[] args) {
 		System.out.println("Additon: "+ add(12,14));
